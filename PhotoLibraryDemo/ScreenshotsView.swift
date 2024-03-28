@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Photos
 import SwiftUI
 
 struct ScreenshotsView: View {
@@ -27,9 +28,6 @@ struct ScreenshotsView: View {
         }
     }
 }
-
-import Photos
-import SwiftUI
 
 class SreenshotsGalleryViewModel: ObservableObject {
     @Published var images: [UIImage] = []

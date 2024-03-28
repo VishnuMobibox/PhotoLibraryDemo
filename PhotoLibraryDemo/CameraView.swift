@@ -5,8 +5,11 @@
 //  Created by Vishnu's Macbook Air on 27/03/24.
 //
 
+
 import Foundation
 import SwiftUI
+import Photos
+import ImageIO
 
 struct CameraView: View {
     @StateObject private var viewModel = CameraImageViewModel()
@@ -27,11 +30,6 @@ struct CameraView: View {
         }
     }
 }
-
-import Foundation
-import SwiftUI
-import Photos
-import ImageIO
 
 class CameraImageViewModel: ObservableObject {
     @Published var images: [UIImage] = []

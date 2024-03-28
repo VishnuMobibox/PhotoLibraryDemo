@@ -11,7 +11,9 @@ import SwiftUI
 struct PhotoLibraryDemoApp: App {
     var body: some Scene {
         WindowGroup {
+            //all images
 //            ContentView()
+            
             //to view ScreenShot
 //            ScreenshotsView()
             

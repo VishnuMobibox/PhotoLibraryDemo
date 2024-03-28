@@ -7,17 +7,11 @@
 
 import Foundation
 import SwiftUI
+import PhotosUI
 
 struct ContentView: View {
     
     var body: some View {
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-//            Text("Hello, world!")
-//        }
-//        .padding()
         VStack {
             HomePageView()
                 .ignoresSafeArea(.all)
@@ -50,10 +44,6 @@ struct HomePageView: View {
         }
     }
 }
-
-import PhotosUI
-
-
 
 class ImageGalleryViewModel: ObservableObject {
 
