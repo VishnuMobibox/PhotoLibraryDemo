@@ -11,7 +11,12 @@ import SwiftUI
 struct PhotoLibraryDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            //to view ScreenShot
+//            ScreenshotsView()
+            
+            //Camera View
+            CameraView()
         }
     }
 }
